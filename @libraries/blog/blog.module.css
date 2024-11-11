@@ -1,0 +1,11 @@
+.blog {
+  &:before {
+    content: '@libraries/blog';
+  }
+}
+
+.blogSlide {
+  &:before {
+    content: '@libraries/blog blogSlide';
+  }
+}

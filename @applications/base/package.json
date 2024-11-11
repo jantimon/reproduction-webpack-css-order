@@ -2,6 +2,7 @@
   "name": "@applications/base",
   "version": "1.0.0",
   "dependencies": {
+    "@libraries/blog": "workspace:*",
     "@libraries/teaser": "workspace:*"
   },
   "devDependencies": {
@@ -18,5 +19,5 @@
     "build": "webpack --mode production",
     "dev": "webpack --mode development"
   },
-  "sideEffects": false
+  "sideEffects": true
 }

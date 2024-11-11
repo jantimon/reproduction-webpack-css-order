@@ -4,10 +4,18 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   mode: 'production',
-  entry: './src/index.ts',
+  entry: {
+    a: "./src/entryA.ts",
+    b: "./src/entryB.ts",
+  },
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: '[name].js',
+  },
+  optimization: {
+    splitChunks: {
+      chunks: 'all',
+    },
   },
   module: {
     rules: [
@@ -39,4 +47,8 @@ module.exports = {
   resolve: {
     extensions: ['.ts', '.js'],
   },
+  infrastructureLogging: {
+    level: 'verbose',
+  },
+  stats: 'verbose',
 };

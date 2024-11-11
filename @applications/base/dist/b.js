@@ -1,0 +1,1 @@
+(()=>{"use strict";var c,n,a,d;document.body.innerHTML='\n    <div class="'.concat("KeBNm27BdBvQRmcjhow4",'">\n      ').concat((n=(c={children:"Slide 1",className:"V2SUOuCyQl3UuckNTU1D"}).className,d=c.children,'<div class="'.concat("LI2uZY52x85dBKRwul2O"+((a=void 0===n?"":n)?" ".concat(a):""),'">').concat(d,"</div>")),"\n    </div>\n  ")})();
