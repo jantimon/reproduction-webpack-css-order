@@ -18,5 +18,5 @@
     "build": "webpack --mode production",
     "dev": "webpack --mode development"
   },
-  "sideEffects": false
+  "sideEffects": true
 }
