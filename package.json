@@ -1,0 +1,9 @@
+{
+  "name": "pnpm-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "pnpm -r build",
+    "dev": "pnpm -r dev"
+  }
+}

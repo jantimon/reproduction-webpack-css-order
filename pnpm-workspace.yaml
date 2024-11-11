@@ -1,0 +1,4 @@
+packages:
+  - '@applications/*'
+  - '@libraries/*'
+  - '@segments/*'
