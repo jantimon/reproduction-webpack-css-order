@@ -22,6 +22,7 @@ The same code works for:
 The css declaration `background-color: orange;` should be the last rule in the CSS file 
 
 - [webpack 5 (broken)](https://github.com/jantimon/reproduction-webpack-css-order/blob/main/%40applications/base/dist/main.css)
+- [turbopack (broken)](https://github.com/jantimon/reproduction-webpack-css-order/blob/turbo/%40applications/base/.next/static/chunks/%5Bproject%5D__53bcfa._.css)
 - [webpack 5 (sideEffects: true)](https://github.com/jantimon/reproduction-webpack-css-order/blob/side-effects-true/%40applications/base/dist/main.css)
 - [webpack 5 (no barrel)](https://github.com/jantimon/reproduction-webpack-css-order/blob/no-barell/%40applications/base/dist/main.css)
 - [rspack](https://github.com/jantimon/reproduction-webpack-css-order/blob/rspack/%40applications/base/dist/main.css)

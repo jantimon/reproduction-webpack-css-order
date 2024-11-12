@@ -43,6 +43,7 @@ for branch in $branches; do
     # install dependencies
     pnpm install
     rm -rf @applications/base/dist
+    rm -rf @applications/base/.next
     pnpm run build
 
     # ammend if changes
