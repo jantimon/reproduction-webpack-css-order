@@ -1,4 +1,4 @@
-import { CarouselButton } from '@segments/carousel';
+import { CarouselButton } from '@segments/carousel/buttons';
 import styles from './teaser.module.css';
 
 export const Teaser = () => {

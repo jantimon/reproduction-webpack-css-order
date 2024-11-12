@@ -2,5 +2,13 @@
   "name": "@segments/carousel",
   "version": "1.0.0",
   "main": "src/index.ts",
-  "sideEffects": false
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "import": "./src/index.ts"
+    },
+    "./buttons": {
+      "import": "./src/buttons.ts"
+    }
+  }
 }
