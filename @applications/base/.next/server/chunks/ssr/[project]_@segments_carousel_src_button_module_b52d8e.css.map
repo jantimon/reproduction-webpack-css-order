@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/@segments/carousel/src/button.module.css"],"sourcesContent":[".button {\n  padding: 8px 16px;\n  background-color: #007bff;\n  color: white;\n  border: none;\n  border-radius: 4px;\n}\n"],"names":[],"mappings":"AAAA"}},
+    {"offset": {"line": 8, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

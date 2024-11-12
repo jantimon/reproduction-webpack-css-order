@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/@libraries/teaser/src/teaser.module.css"],"sourcesContent":[".teaser {\n  padding: 20px;\n  border: 1px solid #ddd;\n  border-radius: 8px;\n  margin: 16px;\n}\n\n.teaserCarouselButton {\n  background-color: orange;\n}"],"names":[],"mappings":"AAAA;;;;;;;AAOA"}},
+    {"offset": {"line": 11, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

@@ -1,0 +1,19 @@
+{
+  "pages": {
+    "/page": [
+      "static/chunks/[project]__9a813a._.js",
+      "static/chunks/app_layout_tsx_105234._.js",
+      "static/chunks/[project]__53dd5d._.js",
+      "static/chunks/[project]__53bcfa._.css",
+      "static/chunks/app_page_tsx_f46b4a._.js",
+      "static/chunks/799e9_next_dist_compiled_react-dom_8b458e._.js",
+      "static/chunks/799e9_next_dist_compiled_8c87e0._.js",
+      "static/chunks/799e9_next_dist_client_543883._.js",
+      "static/chunks/799e9_next_dist_ce3211._.js",
+      "static/chunks/de9e7_@swc_helpers_cjs_6ab2e1._.js",
+      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_276b13._.js",
+      "static/chunks/[project]_@applications_base_c4c472._.js",
+      "static/chunks/[project]_@applications_base_c7067b._.js"
+    ]
+  }
+}
