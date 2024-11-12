@@ -39,6 +39,17 @@ for branch in $branches; do
         git rebase --abort
         continue
     fi
+
+    # install dependencies
+    pnpm install
+    rm -rf @applications/base/dist
+    pnpm run build
+
+    # ammend if changes
+    if ! git diff-index --quiet HEAD --; then
+        git add .
+        git commit --amend --no-edit
+    fi
     
     # Force push with lease (safer than plain force push)
     if ! git push --force-with-lease origin "$branch"; then
