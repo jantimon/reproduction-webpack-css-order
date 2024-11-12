@@ -122,11 +122,11 @@ graph TD
         E1 --> F1
         F1 --> G1
 
-        style A1 fill:#AA5,stroke:#333
-        style C1 fill:#cfe,stroke:#333
-        style D1 fill:#cfe,stroke:#333
-        style F1 fill:#cfe,stroke:#333
-        style G1 fill:#cfe,stroke:#333
+        style A1 fill:#0a0a4a,stroke:#333
+        style C1 fill:#294b51,stroke:#333
+        style D1 fill:#294b51,stroke:#333
+        style F1 fill:#294b51,stroke:#333
+        style G1 fill:#294b51,stroke:#333
     end
 
     subgraph "sideEffects: true"
@@ -149,10 +149,10 @@ graph TD
         C2 --> H2
         H2 --> I2
 
-        style A2 fill:#AA5,stroke:#333
-        style F2 fill:#cfe,stroke:#333
-        style G2 fill:#cfe,stroke:#333
-        style H2 fill:#cfe,stroke:#333
-        style I2 fill:#cfe,stroke:#333
+        style A2 fill:#0a0a4a,stroke:#333
+        style F2 fill:#294b51,stroke:#333
+        style G2 fill:#294b51,stroke:#333
+        style H2 fill:#294b51,stroke:#333
+        style I2 fill:#294b51,stroke:#333
     end
 ```
