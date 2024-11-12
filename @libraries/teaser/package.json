@@ -5,5 +5,5 @@
   "dependencies": {
     "@segments/carousel": "workspace:*"
   },
-  "sideEffects": false
+  "sideEffects": ["*.css"]
 }
