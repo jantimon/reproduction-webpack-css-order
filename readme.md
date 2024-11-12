@@ -23,7 +23,7 @@ The css declaration `background-color: orange;` should be the last rule in the C
 
 - [webpack 5 (broken)](https://github.com/jantimon/reproduction-webpack-css-order/blob/main/%40applications/base/dist/main.css)
 - [webpack 5 (sideEffects: true)](https://github.com/jantimon/reproduction-webpack-css-order/blob/side-effects-true/%40applications/base/dist/main.css)
-- [webpack 5 (no barrel)](https://github.com/jantimon/reproduction-webpack-css-order/blob/no-barrel/%40applications/base/dist/main.css)
+- [webpack 5 (no barrel)](https://github.com/jantimon/reproduction-webpack-css-order/blob/no-barell/%40applications/base/dist/main.css)
 - [rspack](https://github.com/jantimon/reproduction-webpack-css-order/blob/rspack/%40applications/base/dist/main.css)
 - [vite](https://github.com/jantimon/reproduction-webpack-css-order/blob/vite/%40applications/base/dist/index.css)
 - [parcel](https://github.com/jantimon/reproduction-webpack-css-order/blob/parcel/%40applications/base/dist/index.5ff2b6c6.css)
