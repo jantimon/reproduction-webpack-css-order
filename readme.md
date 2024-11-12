@@ -25,7 +25,7 @@ pnpm build
 ```
 
 4. See CSS output in `@applications/base/dist`:
-The `background-color: orange;` is not the last rule in the CSS file:
+The `background-color: orange;` is not the last rule in the CSS file in the [dist](https://github.com/jantimon/reproduction-webpack-css-order/tree/main/%40applications/base/dist) directory:
 
 ```css
 .hDE5PT5V3QGAPX9o9iZl {
@@ -48,17 +48,17 @@ The `background-color: orange;` is not the last rule in the CSS file:
 }
 ```
   
-5. Change to one of the comparison branches:
+1. Change to one of the comparison branches:
    - `side-effects-true` branch: `git checkout side-effects-true` (all packages have `sideEffects: true`)
    - `no-barrel` branch: `git checkout no-barrel` (no barrel file in `@segments/carousel`)
 
-6. Build again
+2. Build again
 ```bash
 pnpm build
 ```
 
-7. See CSS output in `@applications/base/dist`:
- The `background-color: orange;` is now the last rule in the CSS file
+1. See CSS output in `@applications/base/dist`:
+ The `background-color: orange;` is now the last rule in the CSS file in the [dist](https://github.com/jantimon/reproduction-webpack-css-order/tree/side-effects-true/%40applications/base/dist) directory:
 
 
 ```css
