@@ -1,5 +1,5 @@
 import { CarouselButton } from '@segments/carousel';
-import styles from './teaser.module.css';
+import * as styles from './teaser.module.css';
 
 export const Teaser = () => {
   return `
