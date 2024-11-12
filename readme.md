@@ -48,12 +48,9 @@ The `background-color: orange;` is not the last rule in the CSS file:
 }
 ```
   
-5. Replace `"sideEffects": false` with `"sideEffects": true` in all `package.json` files
-(or switch to the `side-effects-true` branch)
-```bash
-git checkout -b side-effects-true
-```
-
+5. Change to one of the comparison branches:
+   - `side-effects-true` branch: `git checkout side-effects-true` (all packages have `sideEffects: true`)
+   - `no-barrel` branch: `git checkout no-barrel` (no barrel file in `@segments/carousel`)
 
 6. Build again
 ```bash
@@ -154,5 +151,27 @@ graph TD
         style G2 fill:#294b51,stroke:#333
         style H2 fill:#294b51,stroke:#333
         style I2 fill:#294b51,stroke:#333
+    end
+
+    subgraph "No Barrel"
+        A3["@applications/base/src/index.ts preOrder: 0, postOrder: 6"]
+        B3["@libraries/teaser/src/teaser.ts preOrder: 1, postOrder: 5"]
+        E3["@segments/carousel/src/buttons.ts preOrder: 2, postOrder: 2"]
+        F3["@segments/carousel/src/button.module.css preOrder: 3, postOrder: 1"]
+        G3["button.module.css|0|||}} preOrder: 4, postOrder: 0"]
+        H3["@libraries/teaser/src/teaser.module.css preOrder: 5, postOrder: 4"]
+        I3["teaser.module.css|0|||}} preOrder: 6, postOrder: 3"]
+        
+        A3 --> B3
+        B3 --> E3
+        E3 --> F3
+        F3 --> G3
+        B3 --> H3
+        H3 --> I3
+        style A3 fill:#0a0a4a,stroke:#333
+        style F3 fill:#294b51,stroke:#333
+        style G3 fill:#294b51,stroke:#333
+        style H3 fill:#294b51,stroke:#333
+        style I3 fill:#294b51,stroke:#333
     end
 ```
