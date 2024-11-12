@@ -1,6 +1,10 @@
 {
   "name": "@segments/carousel",
   "version": "1.0.0",
-  "main": "src/index.ts",
-  "sideEffects": false
+  "main": "src/index.tsx",
+  "sideEffects": false,
+  "exports": {
+    "./buttons": "./src/buttons.tsx",
+    ".": "./src/index.tsx"
+  }
 }

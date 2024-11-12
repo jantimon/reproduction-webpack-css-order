@@ -1,1 +1,0 @@
-(()=>{"use strict";var n;document.body.innerHTML='\n    <div class="'.concat("hDE5PT5V3QGAPX9o9iZl",'">\n      <h2>Teaser Component</h2>\n      ').concat('<button class="'.concat("R_y25aX9lTSLQtlxA1c9"+((n=void 0==="yqrxTjAG22vkATE1VjR9"?"":"yqrxTjAG22vkATE1VjR9")?" ".concat(n):""),'">Carousel Button</button>'),"\n    </div>\n  ")})();
