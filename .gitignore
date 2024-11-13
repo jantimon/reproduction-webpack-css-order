@@ -2,3 +2,4 @@ node_modules/
 .pnpm-store/
 .parcel-cache
 .next/cache
+**/.next/cache
